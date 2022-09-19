@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIGHTapp</title>
+</head>
+  <body id="reg" class="body1">
+
+      <center>
+        
+          <h1 class="title"> LIGHT APP </h1>
+          <h1 class="title"> REGISTER </h1>
+      
+          <form action="./register.php" method="post">
+              
+              <input type="email" placeholder="Enter Email " name="username" required>
+              <br> <br>
+              <input type="password" placeholder="Enter Password"  name="password" required>
+              <br> <br>
+              <input type="submit" class="submit">
+              <p>Already have an account? <a href="./login.html">Login here</a></p>
+              
+          </form>
+
+      </center>   
+</body>
+</html>
+
+<style>
+
+input[type=password] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=password]:focus {
+  border: 3px solid rgb(86, 35, 226);
+}
+
+input[type=email] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=email]:focus {
+  border: 3px solid rgb(38, 65, 216);
+}
+
+
+.submit:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.submit {
+    padding: 16px 50px;
+    background-color: green;
+    color: beige;
+    width: 15%;
+    
+}
+
+.body {
+    margin: 2% red ;
+    background-color: white;
+
+}
+
+.title {
+
+
+    color: red;
+    
+
+}
+
+
+
+
+</style>
